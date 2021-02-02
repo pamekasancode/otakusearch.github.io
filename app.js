@@ -4,7 +4,7 @@ let url = "https://www.google.com/search?q="
 let btnTheme = document.querySelector("#theme")
 let close = document.querySelector("#close")
 let _theme = document.querySelector(".theme")
-let img = localStorage.getItem("otaku") || "Kirito.jpeg"
+let img = localStorage.getItem("otaku") || "https://i.ibb.co/mvc5RfT/Kirito-6314.jpg"
 let badquery = ["hentai", "nekopoi", "milf", "loli", "mantap mantap", "ecchi", "harem", "doujin", "porn"]
 
 document.body.style.backgroundImage = `url(${img})`
